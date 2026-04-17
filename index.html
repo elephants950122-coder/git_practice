@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>林建宇 (Jian-yu Lin) | 個人履歷與作品集</title>
+    <style>
+        /* 基礎全域設定 */
+        body { 
+            font-family: 'Segoe UI', 'Microsoft JhengHei', Tahoma, Geneva, sans-serif; 
+            line-height: 1.8; 
+            color: #333; 
+            background-color: #f9fbfd;
+            max-width: 800px; 
+            margin: 0 auto; 
+            padding: 30px 20px; 
+        }
+        
+        /* 頁首樣式 */
+        header { 
+            text-align: center;
+            border-bottom: 2px solid #2c3e50; 
+            padding-bottom: 20px; 
+            margin-bottom: 40px; 
+        }
+        header h1 { 
+            color: #2c3e50; 
+            margin-bottom: 5px;
+            font-size: 2.5em;
+        }
+        header p {
+            color: #7f8c8d;
+            font-size: 1.2em;
+            margin-top: 0;
+        }
+
+        /* 區塊標題樣式 */
+        h2 { 
+            color: #2c3e50; 
+            border-left: 5px solid #3498db; 
+            padding-left: 15px; 
+            margin-top: 40px;
+        }
+
+        /* 內容區塊設定 */
+        .section { 
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            margin-bottom: 30px; 
+        }
+        
+        /* 列表樣式 */
+        ul { 
+            list-style-type: none; 
+            padding-left: 0;
+        }
+        li {
+            margin-bottom: 15px;
+            padding-left: 20px;
+            position: relative;
+        }
+        li::before {
+            content: "▹";
+            color: #3498db;
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+        }
+        strong {
+            color: #2980b9;
+        }
+
+        /* 頁尾樣式 */
+        footer {
+            text-align: center; 
+            color: #95a5a6; 
+            font-size: 0.9em;
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #ecf0f1;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>林建宇 (Jian-yu Lin)</h1>
+        <p>靜宜大學 資訊管理學系 (MIS)</p>
+    </header>
+
+    <main>
+        <section class="section" id="about">
+            <h2>關於我</h2>
+            <p>你好！我是林建宇，目前就讀於靜宜大學資管系。雖然高中時期是社會組背景，但進入大學後，我在大一的課程中逐步克服了對硬體與程式語法的陌生感，打下了相當扎實的程式基礎。比起害怕寫扣，我現在更享受解決問題的過程，並致力於開發出「真正有用」的軟體與應用。</p>
+        </section>
+
+        <section class="section" id="skills">
+            <h2>技術專長與專案經驗</h2>
+            <ul>
+                <li><strong>網頁前端與後端開發：</strong> 熟悉 Python (Flask) 框架與 Firebase 雲端資料庫的整合。曾實際開發過系上教授資訊的網頁搜尋系統，包辦 HTML 模板設計與後端資料串接。</li>
+                <li><strong>Android App 開發：</strong> 具備 Kotlin 與 Android Studio 開發經驗，熟悉 MVVM 架構設計，曾參與開發支援社會福利機構的麵包預約應用程式。</li>
+                <li><strong>物聯網 (IoT) 實作：</strong> 能將軟硬體結合，曾使用 Arduino 搭配實體搖桿，從無到有寫出俄羅斯方塊遊戲的控制邏輯。</li>
+            </ul>
+        </section>
+
+        <section class="section" id="experience">
+            <h2>組織與團隊經驗</h2>
+            <ul>
+                <li><strong>資管系聯合迎新 副總召：</strong> 負責協助總召協調系上大型活動策劃。在籌備過程中，我培養了跨部門溝通、團隊協作以及專案進度管控的能力，確保活動能順利推進。</li>
+            </ul>
+        </section>
+
+        <section class="section" id="hobbies">
+            <h2>休閒嗜好</h2>
+            <p>在坐在電腦前寫程式之餘，我非常重視維持身心的活躍與健康：</p>
+            <ul>
+                <li><strong>團隊運動：</strong> 每週固定安排排球與籃球的練習，享受團隊合作與揮灑汗水的樂趣。</li>
+                <li><strong>徒手健身：</strong> 熱衷於自我挑戰，目前專注於引體向上（Pull-ups）的訓練與突破。</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 林建宇. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
